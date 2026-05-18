@@ -26,7 +26,7 @@ const SOCIAL_LINKS = [
   {
     key: "youtube",
     label: "YouTube",
-    url: "https://youtube.com/@earth_f",
+    url: "#",
     icon: "youtube"
   },
   {
@@ -87,7 +87,7 @@ const PAYMENT_METHODS = [
     key: "buyCoffee",
     title: "sponsors.buyCoffee",
     desc: "sponsors.buyCoffeeDesc",
-    url: "buymeacoffee.com/jfreyframes"
+    url: "https://buymeacoffee.com/jfreyframes"
   },
   {
     key: "paypal",
@@ -105,7 +105,7 @@ const PAYMENT_METHODS = [
     key: "kofi",
     title: "sponsors.kofi",
     desc: "sponsors.kofiDesc",
-    url: "ko-fi.com/jfrey"
+    url: "https://ko-fi.com/jfrey"
   },
   {
     key: "crypto",
@@ -297,7 +297,7 @@ const I18N = {
       cryptoDesc: "适合偏好 USDT 或稳定币的读者。",
       openPayment: "打开支付页面 →",
       addPaymentLink: "即将开放",
-      addLink: "buymeacoffee.com/jfreyframes",
+      addLink: "https://buymeacoffee.com/jfreyframes",
       addPaypal: "PayPal 页面地址",
       addAlipay: "支付宝页面或二维码页面",
       addKofi: "https://ko-fi.com/jfrey",
@@ -390,7 +390,7 @@ const I18N = {
       cryptoDesc: "USDT やステーブルコインを使いたい読者向けです。",
       openPayment: "支払いページを開く →",
       addPaymentLink: "近日公開",
-      addLink: "buymeacoffee.com/jfreyframes",
+      addLink: "https://buymeacoffee.com/jfreyframes",
       addPaypal: "PayPal URL",
       addAlipay: "Alipay URL または QR ページ",
       addKofi: "https://ko-fi.com/jfrey",
