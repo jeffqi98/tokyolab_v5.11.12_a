@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.svg">
+  <title>{{ page.title | escape }} · TokyoLab</title>
+  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | default: page.title | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{{ page.title | escape }} · TokyoLab">
+  <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | default: page.title | escape }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="alternate" type="application/rss+xml" title="TokyoLab RSS" href="../feed.xml">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../index.html"><span class="brand-mark">tl</span><span>TOKYOLAB</span></a>
+  <nav class="nav" aria-label="Navigation">
+    <a href="../photos.html">Photos</a>
+    <a href="../posts.html">Posts</a>
+    <a href="../about.html">About</a>
+    <a href="../sponsors.html">Sponsors</a>
+    <a class="icon-btn" href="../search.html" aria-label="Search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    </a>
+    <button class="icon-btn" data-theme-toggle aria-label="Toggle theme"></button>
+    <div class="lang-switcher" data-lang-switcher aria-label="Language switcher">
+      <button data-lang="en">EN</button>
+      <button data-lang="zh">中</button>
+      <button data-lang="ja">日</button>
+    </div>
+  </nav>
+</header>
+
+<main class="article-layout">
+  <article class="article">
+    <header class="article-head">
+      <div class="article-kicker">TokyoLab Journal</div>
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}
+      <p class="article-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+      <div class="article-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+        <span>TokyoLab</span>
+      </div>
+    </header>
+    <div class="article-body">
+      {{ content }}
+    </div>
+  </article>
+  <aside class="article-toc" aria-label="Article catalog">
+    <div class="toc-title">CATALOG</div>
+    <nav data-article-toc></nav>
+  </aside>
+</main>
+
+<footer class="site-footer">
+  <span>© <span id="year">2026</span> TokyoLab</span>
+  <span><a href="../posts.html">Back to posts</a></span>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+<script src="../assets/js/site-config.js"></script>
+<script src="../assets/js/content.js"></script>
+<script src="../assets/js/auto-photos.js"></script>
+<script src="../assets/js/auto-posts.js"></script>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/analytics-ads.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>About · TokyoLab</title><link rel="stylesheet" href="assets/css/style.css"></head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">tl</span><span>TOKYOLAB</span></a>
+  <nav class="nav" aria-label="Navigation">
+    <a data-nav href="photos.html">Photos</a>
+    <a data-nav href="posts.html">Posts</a>
+    <a data-nav href="about.html">About</a>
+    <a data-nav href="sponsors.html">Sponsors</a>
+    <a data-nav class="icon-btn" href="search.html" aria-label="Search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    </a>
+    <button class="icon-btn" data-theme-toggle aria-label="Toggle theme"></button>
+    <div class="lang-switcher" data-lang-switcher aria-label="Language switcher">
+      <button data-lang="en">EN</button>
+      <button data-lang="zh">中</button>
+      <button data-lang="ja">日</button>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="page-head">
+    <div class="kicker" data-i18n="pages.aboutKicker">About</div>
+    <h1 data-i18n="pages.aboutTitle">TokyoLab</h1>
+  </section>
+  <section class="about-grid">
+    <div class="mono" data-i18n="pages.aboutLabel">Jeffrey / Tokyo</div>
+    <div>
+      <p data-i18n="pages.aboutP1">I’m Jeffrey, currently based in Tokyo. I like using photos and words to document hiking, travel, and the quiet, beautiful moments in life that feel worth keeping.</p>
+      <p data-i18n="pages.aboutP2">Hiking has added a lot of joy to my life. On the trail, I’ve seen many landscapes and met many interesting people. In the fast rhythm of city life, returning to the countryside helps me find a more comfortable and relaxed way of living, so I don’t stay so tense all the time.</p>
+      <p data-i18n="pages.aboutP3">Compared with a fixed routine, every hike is full of unknowns: unknown people, unknown shops, unknown views. All of that brings a fresh feeling back into my life.</p>
+      <p data-i18n="pages.aboutP4">Escaping the city has let me do many things I rarely have the chance to do: sitting down to chat with shop owners in small countryside stores, or listening to the rain from inside a tent deep in quiet mountains.</p>
+      <p data-i18n="pages.aboutP5">These experiences keep recharging me. I enjoy this way of living, and I want to share the joy I find on the road with others.</p>
+      <p data-i18n="pages.aboutP6">TokyoLab is my personal blog: a place for my thoughts, feelings, and photography. I hope it can bring you something, too.</p>
+      <div class="social-block">
+        <div class="mono">Social</div>
+        <div class="social-links" data-social-links></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <span>© <span id="year">2026</span> TokyoLab</span>
+  <span data-i18n="footer">Photography / Hiking / Archive</span>
+</footer>
+<div class="lightbox" aria-hidden="true"><img alt=""><div class="lightbox-caption"></div></div>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+<script src="assets/js/site-config.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/auto-photos.js"></script>
+<script src="assets/js/auto-posts.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/analytics-ads.js"></script>
+</body></html>

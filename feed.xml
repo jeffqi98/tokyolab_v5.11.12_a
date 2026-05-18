@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>TokyoLab</title>
+    <link>https://tokyolab.org/tokyolab_v5.8/</link>
+    <description>A visual archive from Tokyo. Photography, hiking, sea wind, and quiet moments from Japan.</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0900</lastBuildDate>
+    <item>
+      <title>TokyoLab Podcast 正式上线</title>
+      <link>https://tokyolab.org/tokyolab_v5.8/posts/tokyolab-podcast-launched.html</link>
+      <guid>https://tokyolab.org/tokyolab_v5.8/posts/tokyolab-podcast-launched.html</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0900</pubDate>
+      <description>关于移民、日本生活、投资与长期成长的冷静讨论。</description>
+    </item>
+    <item>
+      <title>来日本两年，日本的生活分享及还值得移民吗？</title>
+      <link>https://tokyolab.org/tokyolab_v5.8/posts/two-years-in-japan-life-and-immigration.html</link>
+      <guid>https://tokyolab.org/tokyolab_v5.8/posts/two-years-in-japan-life-and-immigration.html</guid>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0900</pubDate>
+      <description>基于亲身经历，聊聊东京真实生活、签证焦虑、语言、成本，以及日本是否还值得作为移民目的地。</description>
+    </item>
+    <item>
+      <title>海边徒步｜小田原市 Door to the Sea</title>
+      <link>https://tokyolab.org/tokyolab_v5.8/posts/odawara-door-to-the-sea.html</link>
+      <guid>https://tokyolab.org/tokyolab_v5.8/posts/odawara-door-to-the-sea.html</guid>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0900</pubDate>
+      <description>从新宿出发去小田原，走向 Door to the Sea、小田原城和海边小城的安静街道。</description>
+    </item>
+    <item>
+      <title>周末去深山徒步｜檜原村 / 神户岩</title>
+      <link>https://tokyolab.org/tokyolab_v5.8/posts/hiking-on-the-mountain.html</link>
+      <guid>https://tokyolab.org/tokyolab_v5.8/posts/hiking-on-the-mountain.html</guid>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0900</pubDate>
+      <description>从檜原村、払沢の滝到神户岩的一次安静徒步，也记录交通、吃饭和时间安排上的现实问题。</description>
+    </item>
+  </channel>
+</rss>

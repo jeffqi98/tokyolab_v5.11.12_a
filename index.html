@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.svg">
+  <title>TokyoLab — A visual archive from Tokyo</title>
+
+  <meta name="description" content="Photography, hiking, sea wind, small streets, and quiet moments from Japan.">
+  <link rel="canonical" href="https://tokyolab.org/tokyolab_v5.8/">
+  <meta property="og:title" content="TokyoLab — A visual archive from Tokyo">
+  <meta property="og:description" content="Photography, hiking, sea wind, small streets, and quiet moments from Japan.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tokyolab.org/tokyolab_v5.8/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="alternate" type="application/rss+xml" title="TokyoLab RSS" href="feed.xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">tl</span><span>TOKYOLAB</span></a>
+  <nav class="nav" aria-label="Navigation">
+    <a data-nav href="photos.html">Photos</a>
+    <a data-nav href="posts.html">Posts</a>
+    <a data-nav href="about.html">About</a>
+    <a data-nav href="sponsors.html">Sponsors</a>
+    <a data-nav class="icon-btn" href="search.html" aria-label="Search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    </a>
+    <button class="icon-btn" data-theme-toggle aria-label="Toggle theme"></button>
+    <div class="lang-switcher" data-lang-switcher aria-label="Language switcher">
+      <button data-lang="en">EN</button>
+      <button data-lang="zh">中</button>
+      <button data-lang="ja">日</button>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <div>
+      <div class="kicker" data-i18n="home.kicker">Tokyo based visual diary</div>
+      <h1 data-i18n-lines="home.title">Quiet<br>frames<br>from<br>Japan.</h1>
+      <p data-i18n="home.intro">Photography, hiking, sea wind, small streets, and the quiet moments that deserve a place outside social media.</p>
+    </div>
+    <aside class="hero-side">
+      <div class="year" data-i18n="home.sideYear">2026 / archive</div>
+      <p data-i18n="home.sideText">TokyoLab is a small personal archive for photographs, travel notes, and fragments of life in Japan.</p>
+      <a href="about.html" data-i18n="home.sideLink">Read about TokyoLab →</a>
+    </aside>
+  </section>
+
+  <section class="section featured-socials-section">
+    <div class="section-head">
+      <h2 class="section-title">Follow TokyoLab</h2>
+      <span class="section-link">Recommended</span>
+    </div>
+    <div class="featured-socials" data-featured-socials></div>
+  </section>
+
+<section class="section">
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="home.latestPhotos">Latest photos</h2>
+      <a class="section-link" href="photos.html" data-i18n="home.viewAll">View all →</a>
+    </div>
+    <div class="photo-strip" data-latest-photos></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2 class="section-title" data-i18n="home.latestPosts">Latest posts</h2>
+      <a class="section-link" href="posts.html" data-i18n="home.archive">Archive →</a>
+    </div>
+    <div class="posts-list" data-latest-posts></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <span>© <span id="year">2026</span> TokyoLab</span>
+  <span data-i18n="footer">Photography / Hiking / Archive</span>
+</footer>
+<div class="lightbox" aria-hidden="true"><img alt=""><div class="lightbox-caption"></div></div>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+<script src="assets/js/site-config.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/auto-photos.js"></script>
+<script src="assets/js/auto-posts.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/analytics-ads.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Search · TokyoLab</title><link rel="stylesheet" href="assets/css/style.css"></head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">tl</span><span>TOKYOLAB</span></a>
+  <nav class="nav" aria-label="Navigation">
+    <a data-nav href="photos.html">Photos</a>
+    <a data-nav href="posts.html">Posts</a>
+    <a data-nav href="about.html">About</a>
+    <a data-nav href="sponsors.html">Sponsors</a>
+    <a data-nav class="icon-btn" href="search.html" aria-label="Search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    </a>
+    <button class="icon-btn" data-theme-toggle aria-label="Toggle theme"></button>
+    <div class="lang-switcher" data-lang-switcher aria-label="Language switcher">
+      <button data-lang="en">EN</button>
+      <button data-lang="zh">中</button>
+      <button data-lang="ja">日</button>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="page-head">
+    <div class="kicker" data-i18n="pages.searchKicker">Find something</div>
+    <h1 data-i18n="pages.searchTitle">Search</h1>
+  </section>
+  <section class="search-wrap">
+    <input class="search-box" data-search-input placeholder="Search..." data-i18n-placeholder="pages.searchPlaceholder" autofocus>
+    <div class="search-results" data-search-results></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <span>© <span id="year">2026</span> TokyoLab</span>
+  <span data-i18n="footer">Photography / Hiking / Archive</span>
+</footer>
+<div class="lightbox" aria-hidden="true"><img alt=""><div class="lightbox-caption"></div></div>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+<script src="assets/js/site-config.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/auto-photos.js"></script>
+<script src="assets/js/auto-posts.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/analytics-ads.js"></script>
+</body></html>

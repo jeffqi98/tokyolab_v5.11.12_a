@@ -1,0 +1,14 @@
+title: TokyoLab
+description: A personal photography and writing archive from Tokyo.
+url: "https://tokyolab.org"
+baseurl: "/tokyolab_v5.8"
+permalink: /posts/:slug.html
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: TokyoLab
